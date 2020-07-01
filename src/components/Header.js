@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../yourdata'
-
+import ReactTypingEffect from 'react-typing-effect';
 
 class Header extends Component {
     state = {}
 
     render() {
         return (<div>
-        <h1 className='heading-background'>CREATIVE</h1>
+        <h1 className='heading-background'>Daedalus</h1>
             <header>
                 <h1>
                     <Fade bottom cascade>{data.name}</Fade></h1>
