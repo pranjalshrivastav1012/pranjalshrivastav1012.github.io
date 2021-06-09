@@ -3,7 +3,7 @@
 
 body{
   font-size: 16px;
-  background: white;
+  background: #101819;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
@@ -13,26 +13,28 @@ body{
 .App {
   text-align: center;
 }
-
+.name{
+  color:#00BE9A;
+}
 
 
 .App-header {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  color:#ffffff;
   top:4em;
 }
 .heading-background{
   position: fixed;
-  opacity: 0.05;
-  font-size: 25em;
-  left:-0.2em;
+  opacity: 0.01;
+  font-size: 22em;
+  left:-0.1em;
   top:-0.5em;
   z-index: -100;
-  color:#9352ae;
+  color:#00BE9A;
 }
 header{
   display: flex;
@@ -59,7 +61,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: black;
+  color:#ffffff;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
@@ -72,12 +74,12 @@ li .link:hover{
   opacity: 1;
 }
 .active{
-  color:black;
+  color:#00BE9A;
   opacity: 1;
 }
 
 .header-title button{
-  background: black;
+  background: #04F2A4;
   border: 0px;
   padding: 1em 3em;
   transition: all 0.2s ease-out;
@@ -107,12 +109,15 @@ li .link:hover{
 }
 .about-content{
   position: relative;
+  color: #ffffff;
   left:15em;
 }
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: #00BE9A;
+  
 }
 .about-content p{
   font-size: 1.3em;
@@ -134,11 +139,13 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  color: #00BE9A;
 }
 .work .work-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2em;
+  color: #ffffff;
 }
 
 .project img{
@@ -157,12 +164,12 @@ height: 30em;
   text-align: left;
 }
 .amazing-color{
-  color:#9352ae;
+  color:#00BE9A;
   opacity: 1;
 }
 
 .contact .email{
-  color:black;
+  color: #ffffff;
   font-size: 2em;
 }
 .contact li{
@@ -171,12 +178,14 @@ height: 30em;
   margin-bottom: 0;
   margin-right: 1em;
   margin-left: 0;
+
 }
 .contact li a{
   text-decoration: none;
-  color:black;
+  color:#00BEBA;
 }
 .footer{
+  color: #ffffff;
   position: relative;
   top:2em;
   padding: 1em;
@@ -184,6 +193,12 @@ height: 30em;
 .footer a{
   text-decoration: none;
   color:#2c59fb;
+}
+.contactFirstLine{
+  color: #ffffff;
+}
+.email{
+  color: #ffffff 
 }
 
 
@@ -410,22 +425,30 @@ height: 32em;
 .contact{
   top:10em;
   left:8em;
+  color:#00BE9A;
 }
 .contact h1{
   font-size: 8em;
+  color:#00BE9A;
 }
 .contact .email{
   font-size: 5em;
+  color:#00BE9A;
 }
 
 .contact li a{
   font-size: 4em;
   padding: 1em;
+  color:#00BE9A;
 }
 .footer{
   top:4em;
   padding: 1em;
   font-size: 4em;
+  
+}
+.contactFirstLine{
+  color: #ffffff;
 }
 
 

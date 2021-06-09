@@ -6,8 +6,8 @@ class Contact extends Component {
     state = {  }
     render() { 
         return (  <div>
-        <h1>
-                <Fade bottom cascade> Contact.</Fade>
+        <h1 style={{color:"#1A2324"}}>
+                <Fade bottom cascade> Contact</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
@@ -23,7 +23,7 @@ class Contact extends Component {
         </div>
         </Fade>
 
-            <span className='footer'>© Copyright 2020 Pranjal Srivastava</span>
+            <span className='footer'>© Copyright 2021 Pranjal Srivastava</span>
         </div>);
     }
 }

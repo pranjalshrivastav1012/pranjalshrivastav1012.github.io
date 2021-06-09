@@ -7,7 +7,7 @@ class Project extends Component {
         return ( 
         <Fade bottom>
         <div className='project'>
-        <a href={this.props.url}>
+        <a >
             <img src={this.props.imageSrc} alt={this.props.title}></img>
             </a>
             <h1>{this.props.title}</h1>
